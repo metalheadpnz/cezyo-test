@@ -1,5 +1,4 @@
 import styled from 'styled-components'
-import { breakpoints } from '../styles/breakpoints.ts'
 import LocationIcon from '../assets/icons/pin.svg?react'
 import SearchIcon from '../assets/icons/search.svg?react'
 import BasketIcon from '../assets/icons/basket.svg?react'
@@ -136,7 +135,6 @@ export const Header: React.FC = () => {
         <SearchText
           type="text"
           disabled
-          // placeholder={'Поиск бренд1а, товара, категории...'}
           value={'Поиск бренда, товара, категории...'}
         />
         <SearchBtn>
