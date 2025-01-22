@@ -8,7 +8,7 @@ import { colors } from '../styles/colors.ts'
 
 const HeaderContainer = styled(Container)`
   min-height: 5.125rem;
-  flex-wrap: wrap;
+  //flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   gap: 1.14rem;
@@ -27,11 +27,12 @@ const Location = styled.section`
 `
 
 const City = styled.div`
-  color: ${colors.secondary};
-  max-width: 10rem;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+    color: ${colors.secondary};
+    max-width: 10rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
 `
 
 const Search = styled.div`
