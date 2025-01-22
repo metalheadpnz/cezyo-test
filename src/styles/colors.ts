@@ -3,7 +3,8 @@ export const colors = {
   secondary: '#727280',
   buttonBackground: '#F0F4FB',
   accent: '#2967FF',
-  background: '#FFF'
+  background: '#FFF',
+  tone: '#F8F8F8',
 } as const
 
 export type Colors = typeof colors

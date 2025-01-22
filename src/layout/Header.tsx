@@ -13,6 +13,7 @@ const HeaderContainer = styled(Container)`
   justify-content: space-between;
   gap: 1.14rem;
   padding: 0 2rem;
+  width: 100%;
 `
 
 const React = styled.p`
