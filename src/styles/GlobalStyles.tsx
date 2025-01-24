@@ -8,6 +8,6 @@ export const GlobalStyles = createGlobalStyle`
         font-size: 14px;
         font-family: 'Raleway', sans-serif;
         color: ${colors.primary};
-
+        font-variant-numeric: lining-nums proportional-nums;
     }
 `
