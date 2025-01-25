@@ -5,6 +5,7 @@ export const colors = {
   accent: '#2967FF',
   background: '#FFF',
   tone: '#F8F8F8',
+  gray: '#CECECE',
 } as const
 
 export type Colors = typeof colors

@@ -7,8 +7,8 @@ import { ProductPage } from '../pages/ProductPage/ProductPage.tsx'
 import styled from 'styled-components'
 
 const Container = styled.div`
-    border: 1px dashed coral;
     height: 100%;
+    padding: 2rem;
 `
 
 export const MainContent = () => (
