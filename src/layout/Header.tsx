@@ -2,11 +2,11 @@ import styled from 'styled-components'
 import LocationIcon from '../assets/icons/pin.svg?react'
 import SearchIcon from '../assets/icons/search.svg?react'
 import BasketIcon from '../assets/icons/basket.svg?react'
-import { Container } from '../components/Container.tsx'
+import { FlexContainer } from '../components/FlexContainer.tsx'
 import userPic from '../assets/images/user-pic.jpg'
 import { colors } from '../styles/colors.ts'
 
-const HeaderContainer = styled(Container)`
+const HeaderContainer = styled(FlexContainer)`
   min-height: 5.125rem;
   //flex-wrap: wrap;
   align-items: center;

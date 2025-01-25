@@ -1,10 +1,11 @@
 import React from 'react'
+import { Back } from '../../components/Back.tsx'
 
 export const ProductPage: React.FC = () => {
   return (
     <div>
       <h2>ProductPage</h2>
-      <h1>989898192</h1>
+      <Back />
     </div>
   )
 }
